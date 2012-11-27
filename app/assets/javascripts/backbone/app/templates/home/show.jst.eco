@@ -1,1 +1,8 @@
-<div class='home'><span>HI!!!!!!!!!!!!</span></div>
+<form>
+  <div class='departure-city'><input type='text' name='departure_city' placeholder='From'/></div>
+  <div class='return-city'><input type='text' name='return_city' placeholder='To'/></div>
+  <div class='departure-date-region'>Departure Date </div>
+  <div class='return-date-region'>Return Date </div>
+  <div class='passenger-count'>Passengers</div>
+  <input type='submit' class='submit'></input>
+</form>

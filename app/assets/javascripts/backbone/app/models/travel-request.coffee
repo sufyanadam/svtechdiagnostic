@@ -1,8 +1,11 @@
 class App.Models.TravelRequest extends Backbone.Model
   
   defaults:
-    from            : null
-    to              : null
+    departure_city  : null
+    return_city     : null
     departure_date  : null
     return_date     : null
     passenger_count : null
+
+  validate: =>
+    
